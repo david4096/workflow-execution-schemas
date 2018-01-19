@@ -94,6 +94,13 @@
             "schema": {
               "$ref": "#/definitions/ga4gh_wes_WorkflowRequest"
             }
+          },
+          {
+            "name": "attachment",
+            "in": "formData",
+            "type": "file",
+            "required": false,
+            "description": "A file attachment for initializing the Workflow."
           }
         ],
         "tags": [
